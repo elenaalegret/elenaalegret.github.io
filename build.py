@@ -1,34 +1,31 @@
 from pybtex.database.input import bibtex
 
 def get_personal_data():
-    name = ["Michael", "Niemeyer"]
-    email = "micniemeyer1@gmail.com"
-    twitter = "Mi_Niemeyer"
-    github = "m-niemeyer"
-    linkedin = "michael-niemeyer"
+    name = ["Elena", "Alegret"]
+    email = "elenaalegret@gmail.com"
+    twitter = "elenaalegret"
+    github = "elenaalegret"
+    linkedin = "elena-alegret"
     bio_text = f"""
                 <p>
-                    I am a senior research scientist at Google working on 3D computer vision and generative modeling.
-                    Prior to joining Google, I was a PhD student at the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Max Planck Insitute for Intelligent Systems</a> supervised by <a href="https://www.cvlibs.net/" target="_blank">Andreas Geiger</a>.
-                    As an undergraduate student, I studied Mathematics at the <a href="http://www.mi.uni-koeln.de/main/index.en.php" target="_blank">University of Cologne (Germany)</a> and computer science as the Master's at the 
-                    <a href="https://www.st-andrews.ac.uk/computer-science/" target="_blank">University of St Andrews (UK)</a>.
-                </p>
+                    I am a Master’s student at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a> specializing in 3D computer vision and machine learning, with a focus on 3D scene understanding and reconstruction.
+                    Prior to this, I completed my Bachelor’s degree in <strong>Artificial Intelligence</strong> at <a href="https://www.upc.edu/en" target="_blank">Universitat Politècnica de Catalunya (UPC)</a>, including a one-year exchange at <a href="https://www.tum.de/en/" target="_blank">Technical University of Munich (TUM)</a>.
+                    During research internships at <a href="https://www.tum.de/en/" target="_blank">TUM</a>, <a href="https://www.epfl.ch/en/" target="_blank">EPFL</a>, and the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a>.
+                
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
                 <p>
-                    <a href="https://m-niemeyer.github.io/assets/other/bio.txt" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-graduation-cap"></i> Bio</a>
-                    <a href="https://m-niemeyer.github.io/assets/pdf/CV_Niemeyer_Michael.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
-                    <a href="mailto:micniemeyer1@gmail.com" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
-                    <a href="https://twitter.com/Mi_Niemeyer" target="_blank" style="margin-right: 5px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
-                    <a href="https://scholar.google.com/citations?user=v1O7i_0AAAAJ&hl=en" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-book"></i> Scholar</a>
-                    <a href="https://github.com/m-niemeyer" target="_blank" style="margin-right: 5px"><i class="fab fa-github fa-lg"></i> Github</a>
-                    <a href="https://www.linkedin.com/in/michael-niemeyer" target="_blank" style="margin-right: 5px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+                    <a href="https://elenaalegret.github.io/assets/pdf/CV_Elena_Alegret.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
+                    <a href="mailto:elenaalegret@gmail.com" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
+                    <a href="https://twitter.com/elenaalegret" target="_blank" style="margin-right: 5px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
+                    <a href="https://scholar.google.com/citations?user=RQzP41AAAAAJ&hl=en" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-book"></i> Scholar</a>
+                    <a href="https://github.com/elenaalegret" target="_blank" style="margin-right: 5px"><i class="fab fa-github fa-lg"></i> Github</a>
+                    <a href="https://www.linkedin.com/in/elena-alegret" target="_blank" style="margin-right: 5px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#demo" data-toggle="collapse" style="margin-left: -6px; margin-top: -2px;"><i class="fa-solid fa-trophy"></i>Awards</button>
                     <div id="demo" class="collapse">
                     <span style="font-weight: bold;">Awards:</span>
-                    In 2011, I graduated as top of my year from secondary school and received <a href="https://www.e-fellows.net/" target="_blank">the e-fellows scholarship</a> and was admitted to <a href="https://www.mathematik.de/" target="_blank">the Germany Mathematics Society</a> and <a href="https://www.dpg-physik.de/" target="_blank">the German Physics Society</a>. In 2017 I received the Dean's List Award for Academic Excellence for my Master's degree.
-                    During my PhD studies, I was a scholar of <a href="https://imprs.is.mpg.de/" target="_blank">the International Max Planck Research School for Intelligent Systems (IMPRS-IS)</a>.
-                    Our research projects Occupancy Networks, DVR, and ConvOnet were selected to be among the 15 most influencial <a href="https://www.paperdigest.org/2021/03/most-influential-cvpr-papers-2021-03/" target="_blank">CVPR</a> /  <a href="https://www.paperdigest.org/2023/09/most-influential-eccv-papers-2023-09/" target="_blank">ECCV</a> papers of 2019 and 2020.
-                    In 2021, we received the CS teaching award for our <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/computer-vision/" target="_blank">computer vision lecture</a> as well as  <a href="https://cyber-valley.de/en/news/meet-the-ai-gamedev-winners" target="blank">the AIGameDev scientific award</a> for our GRAF project and <a href="https://cvpr2021.thecvf.com/node/329" target="_blank">the CVPR Best Paper Award</a> for GIRAFFE (<a href="https://cyber-valley.de/en/news/best-paper-cvpr-2021" target="_blank">news coverage</a>).
+                    In 2025, I graduated with <strong>Highest Honors</strong> for my Bachelor’s thesis at <a href="https://www.tum.de/en/" target="_blank">TU Munich (TUM)</a>, supervised by Prof. Federico Tombari; the results of this work have been accepted at <strong>3DV 2026</strong>.
+                    In 2021, I was selected to present my high-school research project at <strong>Invesjove</strong> (Institut de Tremp, Spain).
+                    In 2021, I received the <strong>Academic Excellence Award (Catalonia)</strong> for achieving a score above <strong>9/10</strong> in the Spanish national university entrance exams (PAU), with an overall score of <strong>13.006/14</strong>.
                 </div>
                 </p>
     """
@@ -36,7 +33,8 @@ def get_personal_data():
             <div class="col-sm-12" style="">
                 <h4>Homepage Template</h4>
                 <p>
-                    Feel free to use this website as a template! It is fully responsive and very easy to use and maintain as it uses a python script that crawls your bib files to automatically add the papers and talks. If you find it helpful, please add a link to my website - I will also add a link to yours (if you want). <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Checkout the github repository for instructions on how to use it</a>. <br>
+                    Template adapted from these websites: 
+                    <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">&#9883;</a> 
                     <a href="https://kashyap7x.github.io/" target="_blank">&#9883;</a>
                     <a href="https://kait0.github.io/" target="_blank">&#9883;</a>
                 </p>
@@ -46,91 +44,16 @@ def get_personal_data():
 
 def get_author_dict():
     return {
-        'Andreas Geiger': 'https://www.cvlibs.net/',
-        'Songyou Peng': 'https://pengsongyou.github.io/',
-        'Zehao Yu': 'https://niujinshuchong.github.io/',
-        'Torsten Sattler': 'https://tsattler.github.io/',
-        'Katja Schwarz': 'https://katjaschwarz.github.io/',
-        'Axel Sauer': 'https://axelsauer.com/',
-        'Jonathan Barron': 'https://jonbarron.info/',
-        'Ben Mildenhall': 'https://bmild.github.io/',
-        'Mehdi Sajjadi': 'https://msajjadi.com/',
-        'Noha Radwan': 'http://www2.informatik.uni-freiburg.de/~radwann/',
-        'Chiyu Jiang': 'https://www.maxjiang.ml/',
-        'Yiyi Liao': 'https://yiyiliao.github.io/',
-        'Marc Pollefeys': 'https://people.inf.ethz.ch/pomarc/',
-        'Michael Oechsle': 'https://moechsle.github.io/',
-        'Christian Reiser': 'https://creiser.github.io/',
-        'Lars Mescheder': 'https://scholar.google.de/citations?user=h2k1gL4AAAAJ&hl=de',
-        'Thilo Strauss': 'https://scholar.google.com/citations?user=VlymtLQAAAAJ&hl=en',
-        'Sebastian Nowozin': 'http://www.nowozin.net/sebastian/',
-        'Marie-Julie Rakotosaona': 'http://www.lix.polytechnique.fr/Labo/Marie-Julie.RAKOTOSAONA/',
-        'Fabian Manhardt': 'https://campar.in.tum.de/Main/FabianManhardt',
-        'Diego Martin Arroyo': 'https://martinarroyo.net/',
-        'Abhijit Kundu': 'https://abhijitkundu.info/',
         'Federico Tombari': 'https://www.cs.cit.tum.de/camp/members/senior-research-scientists/federico-tombari/',
-        'Anpei Chen': 'https://apchenstu.github.io/',
-        'Bozidar Antic': 'https://bozidarantic.com/',
-        'Apratim Bhattacharyya': 'https://apratimbhattacharyya18.github.io/',
-        'Siyu Tang': 'https://inf.ethz.ch/people/person-detail.MjYyNzgw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html',
-        'Hidenobu Matsuki': 'https://dblp.org/pid/225/4487.html',
-        'Keisuke Tateno': 'https://campar.in.tum.de/Main/KeisukeTateno',
-        'Alessio Tonioni': 'https://alessiotonioni.github.io/',
-        'Christina Tsalicoglou': 'https://scholar.google.ch/citations?user=7D10QQkAAAAJ&hl=en', 
-        'Amit Raj': 'https://amitraj93.github.io/',
-        'Srinivas Kaza': 'https://www.linkedin.com/in/srinivas-kaza-64223b74',
-        'Ben Poole': 'https://poolio.github.io/',
-        'Nataniel Ruiz': 'https://natanielruiz.github.io/',
-        'Shiran Zada': 'https://scholar.google.com/citations?user=I2qheksAAAAJ',
-        'Kfir Aberman': 'https://kfiraberman.github.io/',
-        'Michael Rubinstein': 'http://people.csail.mit.edu/mrub/',
-        'Yuanzhen Li': 'http://people.csail.mit.edu/yzli/',
-        'Varun Jampani': 'https://varunjampani.github.io/',
-        'Francis Engelmann': 'https://francisengelmann.github.io/',
-        'Mohamad Shahbazi': 'https://mohamad-shahbazi.github.io/',
-        'Liesbeth Claessens': 'https://asl.ethz.ch/the-lab/people/person-detail.MjY5NDUz.TGlzdC8xNTg0LDEyMDExMzk5Mjg=.html',
-        'Edo Collins': 'https://www.linkedin.com/in/edo-collins/?originalSubdomain=ch',
-        'Luc Van Gool': 'https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html',
-        'Fangjinhua Wang': 'https://fangjinhuawang.github.io/',
-        'Richard Szeliski': 'https://szeliski.org/',
         'Kunyi Li': 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=6EC78DAA25310FF2',
         'Nassir Navab': 'https://www.professoren.tum.de/en/navab-nassir',
-        'Rama Gosula': 'https://arvr.google.com/',
-        'John Bates': 'https://arvr.google.com/',
-        'Dominik Kaeser': 'https://scholar.google.com/citations?user=DQ4838YAAAAJ&hl=en',
-        'Erik Sandström': 'https://scholar.google.com/citations?user=phiETm4AAAAJ&hl=en',
-        'Luc Van-Gool': 'https://insait.ai/prof-luc-van-gool/',
-        'Martin Oswald': 'https://oswaldm.github.io/',
-        'Fangneng Zhan': 'https://fnzhan.com/',
-        'Hanxue Liang': 'https://scholar.google.com/citations?user=XcxDA14AAAAJ&hl=en',
-        'Yifan Wang': 'https://yifita.netlify.app/',
-        'Adam Kortylewski': 'https://genintel.mpi-inf.mpg.de/',
-        'Cengiz Oztireli': 'https://www.cl.cam.ac.uk/~aco41/',
-        'Gordon Wetzstein': 'https://stanford.edu/~gordonwz/', 
-        'Christian Theobalt': 'https://people.mpi-inf.mpg.de/~theobalt/',
         'Siyun Liang': 'https://siyun-liang.github.io/',
-        'Thomas Wimmer': 'https://wimmerth.github.io/',
         'Sen Wang': 'https://scholar.google.com/citations?user=OxZ9S6oAAAAJ&hl=en',
         'Stefano Gasperini': 'https://www.cs.cit.tum.de/camp/members/stefano-gasperini/',
-        'Zeyu Chen': 'https://zeyuuuchen.github.io/',
-        'Jonas Kulhanek': 'https://jkulhanek.com/',
-        'Yiming Wang': 'https://scholar.google.com/citations?user=AVOZmU8AAAAJ&hl=en',
-        'Lucy Chai': 'https://scholar.google.com/citations?user=bunnQWQAAAAJ&hl=en',
-        'Xuan Luo': 'https://roxanneluo.github.io/',
-        'Manuel Lagunas': 'https://mlagunas.me/',
-        'Stephen Lombardi': 'https://stephenlombardi.github.io/',
-        'Tiancheng Sun': 'https://www.kevinkingo.com/',
-        'Tianshi Cao': 'https://scholar.google.com/citations?user=CZ9wBBoAAAAJ&hl=en',
-        'Elena Alegret': 'https://es.linkedin.com/in/elena-alegret',
-        'Maria Parelli': 'https://mparelli.github.io/',
-        'Atakan Topaloglu': 'https://scholar.google.com/citations?user=l9mFndIAAAAJ&hl=en',
-        'Xin Kong': 'https://kxhit.github.io/',
-        'Daniel Watson': 'https://scholar.google.com/citations?user=ve9A9rMAAAAJ&hl=en',
-        'Yannick Strümpler': 'https://scholar.google.com/citations?user=6UwR6EUAAAAJ&hl=de',
-        'Ahmed Tekalp': 'https://mysite.ku.edu.tr/mtekalp/',
+        'Micheal Niemeyer': 'https://m-niemeyer.github.io/',
         }
 
-def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
+def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Elena Alegret', add_links=True):
     links = get_author_dict() if add_links else {}
     s = ""
     for p in persons:
