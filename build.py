@@ -50,7 +50,7 @@ def get_author_dict():
         'Siyun Liang': 'https://siyun-liang.github.io/',
         'Sen Wang': 'https://scholar.google.com/citations?user=OxZ9S6oAAAAJ&hl=en',
         'Stefano Gasperini': 'https://www.cs.cit.tum.de/camp/members/stefano-gasperini/',
-        'Micheal Niemeyer': 'https://m-niemeyer.github.io/',
+        'Michael Niemeyer': 'https://m-niemeyer.github.io/',
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Elena Alegret', add_links=True):
