@@ -10,7 +10,7 @@ def get_personal_data():
                 <p>
                     I am a Master’s student at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a> specializing in 3D computer vision and machine learning, with a focus on 3D scene understanding and reconstruction.
                     Prior to this, I completed my Bachelor’s degree in <strong>Artificial Intelligence</strong> at <a href="https://www.upc.edu/en" target="_blank">Universitat Politècnica de Catalunya (UPC)</a>, including a one-year exchange at <a href="https://www.tum.de/en/" target="_blank">Technical University of Munich (TUM)</a>.
-                    During research internships at <a href="https://www.tum.de/en/" target="_blank">TUM</a>, <a href="https://www.epfl.ch/en/" target="_blank">EPFL</a>, and the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a>.
+                    Previously, I completed research internships at <a href="https://www.tum.de/en/" target="_blank">TUM</a>, <a href="https://www.epfl.ch/en/" target="_blank">EPFL</a>, and the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a>.
                 
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
                 <p>
@@ -46,6 +46,7 @@ def get_author_dict():
     return {
         'Federico Tombari': 'https://www.cs.cit.tum.de/camp/members/senior-research-scientists/federico-tombari/',
         'Kunyi Li': 'https://li-kunyi.github.io/',
+        'Kunyi Li*': 'https://li-kunyi.github.io/',
         'Nassir Navab': 'https://www.professoren.tum.de/en/navab-nassir',
         'Siyun Liang': 'https://siyun-liang.github.io/',
         'Sen Wang': 'https://scholar.google.com/citations?user=OxZ9S6oAAAAJ&hl=en',
