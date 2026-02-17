@@ -45,7 +45,7 @@ def get_personal_data():
 def get_author_dict():
     return {
         'Federico Tombari': 'https://www.cs.cit.tum.de/camp/members/senior-research-scientists/federico-tombari/',
-        'Kunyi Li': 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=6EC78DAA25310FF2',
+        'Kunyi Li': 'https://li-kunyi.github.io/',
         'Nassir Navab': 'https://www.professoren.tum.de/en/navab-nassir',
         'Siyun Liang': 'https://siyun-liang.github.io/',
         'Sen Wang': 'https://scholar.google.com/citations?user=OxZ9S6oAAAAJ&hl=en',
