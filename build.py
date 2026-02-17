@@ -46,7 +46,6 @@ def get_author_dict():
     return {
         'Federico Tombari': 'https://www.cs.cit.tum.de/camp/members/senior-research-scientists/federico-tombari/',
         'Kunyi Li': 'https://li-kunyi.github.io/',
-        'Kunyi Li*': 'https://li-kunyi.github.io/',
         'Nassir Navab': 'https://www.professoren.tum.de/en/navab-nassir',
         'Siyun Liang': 'https://siyun-liang.github.io/',
         'Sen Wang': 'https://scholar.google.com/citations?user=OxZ9S6oAAAAJ&hl=en',
