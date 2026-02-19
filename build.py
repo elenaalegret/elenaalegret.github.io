@@ -10,7 +10,7 @@ def get_personal_data():
                 <p>
                     I am a Master’s student at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a> specializing in 3D computer vision and machine learning, with a focus on 3D scene understanding and reconstruction.
                     Prior to this, I completed my Bachelor’s degree in <strong>Artificial Intelligence</strong> at <a href="https://www.upc.edu/en" target="_blank">Universitat Politècnica de Catalunya (UPC)</a>, including a one-year exchange at <a href="https://www.tum.de/en/" target="_blank">Technical University of Munich (TUM)</a>.
-                    Previously, I completed research internships at <a href="https://www.tum.de/en/" target="_blank">TUM</a>, <a href="https://www.epfl.ch/en/" target="_blank">EPFL</a>, and the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a>.
+                    During my B.S.c, I interned at <a href="https://www.tum.de/en/" target="_blank">TUM</a> in 2025, <a href="https://www.epfl.ch/en/" target="_blank">EPFL</a> in 2024, and the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a> in 2023-24.
                 
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
                 <p>
@@ -24,7 +24,7 @@ def get_personal_data():
                     <div id="demo" class="collapse">
                     <span style="font-weight: bold;">Awards:</span>
                     In 2025, I graduated with <strong>Highest Honors</strong> for my Bachelor’s thesis at <a href="https://www.tum.de/en/" target="_blank">TU Munich (TUM)</a>, supervised by Prof. Federico Tombari; the results of this work have been accepted at <strong>3DV 2026</strong>.
-                    In 2021, I was selected to present my high-school research project at <strong>Invesjove</strong> (Institut de Tremp, Spain).
+                    In 2021, I was selected to present my high-school research project at <strong>Invesjove</strong>.
                     In 2021, I received the <strong>Academic Excellence Award (Catalonia)</strong> for achieving a score above <strong>9/10</strong> in the Spanish national university entrance exams (PAU), with an overall score of <strong>13.006/14</strong>.
                 </div>
                 </p>
@@ -33,7 +33,7 @@ def get_personal_data():
             <div class="col-sm-12" style="">
                 <h4>Homepage Template</h4>
                 <p>
-                    Template adapted from these websites: 
+                    Template adapted from: 
                     <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">&#9883;</a> 
                     <a href="https://kashyap7x.github.io/" target="_blank">&#9883;</a>
                     <a href="https://kait0.github.io/" target="_blank">&#9883;</a>
