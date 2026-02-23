@@ -8,10 +8,11 @@ def get_personal_data():
     linkedin = "elena-alegret"
     bio_text = f"""
                 <p>
-                    I am a Master’s student at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a> specializing in 3D computer vision and machine learning, with a focus on 3D scene understanding and reconstruction.
-                    Prior to this, I completed my Bachelor’s degree in <strong>Artificial Intelligence</strong> at <a href="https://www.upc.edu/en" target="_blank">Universitat Politècnica de Catalunya (UPC)</a>, including a one-year exchange at <a href="https://www.tum.de/en/" target="_blank">Technical University of Munich (TUM)</a>.
-                    During my B.S.c, I interned at <a href="https://www.tum.de/en/" target="_blank">TUM</a> in 2025, <a href="https://www.epfl.ch/en/" target="_blank">EPFL</a> in 2024, and the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a> in 2023-24.
-                
+                I am a Master’s student at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a> focusing on 3D computer vision, machine learning, and 3D scene understanding and reconstruction.
+                Prior to this, I completed my Bachelor’s degree in <strong>Artificial Intelligence</strong> at <a href="https://www.upc.edu/en" target="_blank">Universitat Politècnica de Catalunya (UPC)</a>, including a one-year exchange at <a href="https://www.tum.de/en/" target="_blank">Technical University of Munich (TUM)</a>.
+                During my B.Sc., I completed research internships at <a href="https://www.tum.de/en/" target="_blank">TUM</a> (2025, <a href="https://federicotombari.github.io/" target="_blank">Prof. Federico Tombari</a>), <a href="https://www.epfl.ch/en/" target="_blank">EPFL</a> (2024, LTS4 — <a href="https://people.epfl.ch/pascal.frossard?lang=en" target="_blank">Prof. Pascal Frossard</a>), and the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a> (2023–24).
+                Currently, I am conducting research under the supervision of <a href="https://people.inf.ethz.ch/dbarath/" target="_blank">Dániel Béla Baráth</a>, with collaborators including <a href="https://federicotombari.github.io/" target="_blank">Prof. Federico Tombari</a>, <a href="https://m-niemeyer.github.io/" target="_blank">Michael Niemeyer</a>, and <a href="https://people.inf.ethz.ch/marc.pollefeys/" target="_blank">Prof. Marc Pollefeys</a>.
+
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
                 <p>
                     <a href="https://elenaalegret.github.io/assets/pdf/CV_Elena_Alegret.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
