@@ -8,33 +8,36 @@ def get_personal_data():
     linkedin = "elena-alegret"
     bio_text = f"""
                 <p>
-                I am a Master’s student at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a> focusing on 3D computer vision, machine learning, and 3D scene understanding and reconstruction.
-                Prior to this, I completed my Bachelor’s degree in <strong>Artificial Intelligence</strong> at <a href="https://www.upc.edu/en" target="_blank">Universitat Politècnica de Catalunya (UPC)</a>, including a one-year exchange at <a href="https://www.tum.de/en/" target="_blank">Technical University of Munich (TUM)</a>.
-                During my B.Sc., I completed research internships at <a href="https://www.tum.de/en/" target="_blank">TUM</a> (2025, <a href="https://federicotombari.github.io/" target="_blank">Prof. Federico Tombari</a>), <a href="https://www.epfl.ch/en/" target="_blank">EPFL</a> (2024, LTS4 — <a href="https://people.epfl.ch/pascal.frossard?lang=en" target="_blank">Prof. Pascal Frossard</a>), and the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a> (2023–24).
-                Currently, I am conducting research under the supervision of <a href="https://cvg.ethz.ch/team/Dr-Daniel-Bela-Barath" target="_blank">Dániel Béla Baráth</a>, with collaborators including <a href="https://federicotombari.github.io/" target="_blank">Prof. Federico Tombari</a>, <a href="https://m-niemeyer.github.io/" target="_blank">Michael Niemeyer</a>, and <a href="https://people.inf.ethz.ch/marc.pollefeys/" target="_blank">Prof. Marc Pollefeys</a>.
-
-                <p>For any inquiries, feel free to reach out to me via mail!</p>
+                I am a Master’s student at <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a>, majoring in Machine Learning, and a student researcher at the <a href="https://cvg.ethz.ch/" target="_blank">Computer Vision and Geometry (CVG) Lab</a>, where I work on <strong>generative models for 3D reconstruction</strong>, supervised by <a href="https://federicotombari.github.io/" target="_blank">Prof. Federico Tombari</a>, <a href="https://people.inf.ethz.ch/marc.pollefeys/" target="_blank">Prof. Marc Pollefeys</a>, <a href="https://cvg.ethz.ch/team/Dr-Daniel-Bela-Barath" target="_blank">Dániel Béla Baráth</a>, <a href="https://m-niemeyer.github.io/" target="_blank">Michael Niemeyer</a>, and <a href="https://li-kunyi.github.io/" target="_blank">Kunyi Li</a>.
+                </p>
                 <p>
-                    <a href="https://elenaalegret.github.io/assets/pdf/CV_Elena_Alegret.pdf" target="_blank" style="margin-right: 5px"><i class="fa fa-address-card fa-lg"></i> CV</a>
-                    <a href="mailto:elenaalegret@gmail.com" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
-                    <a href="https://twitter.com/elenaalegret" target="_blank" style="margin-right: 5px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
-                    <a href="https://scholar.google.com/citations?user=RQzP41AAAAAJ&hl=en" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-book"></i> Scholar</a>
-                    <a href="https://github.com/elenaalegret" target="_blank" style="margin-right: 5px"><i class="fab fa-github fa-lg"></i> Github</a>
-                    <a href="https://www.linkedin.com/in/elena-alegret" target="_blank" style="margin-right: 5px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#demo" data-toggle="collapse" style="margin-left: -6px; margin-top: -2px;"><i class="fa-solid fa-trophy"></i>Awards</button>
-                    <div id="demo" class="collapse">
+                Before that, I was a research intern at TUM’s <a href="https://www.cs.cit.tum.de/camp/start/" target="_blank">CAMP Lab</a> (2025, Prof. Federico Tombari), where I carried out my Bachelor’s thesis for my B.Sc. in <strong>Artificial Intelligence</strong> at <a href="https://www.upc.edu/en" target="_blank">UPC</a>, during a one-year exchange; the work was published at <strong>3DV 2026</strong>.
+                Earlier, I was a research intern at EPFL’s <a href="https://www.epfl.ch/labs/lts4/" target="_blank">LTS4 Lab</a> (2024, <a href="https://people.epfl.ch/pascal.frossard?lang=en" target="_blank">Prof. Pascal Frossard</a>), working on vision foundation models for medical imaging, and at the <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing Center (BSC)</a> (2023–24).
+                </p>
+                <p>
+                My research interests include generative models, 3D computer vision, 3D reconstruction, and scene understanding.
+                </p>
+
+                <p>Feel free to reach out by email!</p>
+                <p class="links" style="text-align: center;">
+                    <a href="https://elenaalegret.github.io/assets/pdf/CV_Elena_Alegret.pdf" target="_blank"><i class="fa fa-address-card fa-lg"></i> CV</a>
+                    <a href="mailto:elenaalegret@gmail.com"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
+                    <a href="https://twitter.com/elenaalegret" target="_blank"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
+                    <a href="https://scholar.google.com/citations?user=RQzP41AAAAAJ&hl=en" target="_blank"><i class="fa-solid fa-book"></i> Scholar</a>
+                    <a href="https://github.com/elenaalegret" target="_blank"><i class="fab fa-github fa-lg"></i> Github</a>
+                    <a href="https://www.linkedin.com/in/elena-alegret" target="_blank"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#demo" data-toggle="collapse" ><i class="fa-solid fa-trophy"></i> Awards</button>
+                    <div id="demo" class="collapse" style="text-align: left;">
                     <span style="font-weight: bold;">Awards:</span>
-                    In 2025, I graduated with <strong>Highest Honors</strong> for my Bachelor’s thesis at <a href="https://www.tum.de/en/" target="_blank">TU Munich (TUM)</a>, supervised by Prof. Federico Tombari; the results of this work have been accepted at <strong>3DV 2026</strong>.
-                    In 2021, I was selected to present my high-school research project at <strong>Invesjove</strong>.
-                    In 2021, I received the <strong>Academic Excellence Award (Catalonia)</strong> for achieving a score above <strong>9/10</strong> in the Spanish national university entrance exams (PAU), with an overall score of <strong>13.006/14</strong>.
+                    In 2025, I graduated with <strong>Highest Honors</strong> for my Bachelor’s thesis at <a href="https://www.tum.de/en/" target="_blank">TU Munich (TUM)</a>, supervised by Prof. Federico Tombari; the work was published at <strong>3DV 2026</strong> as a co-first-author paper.
+                    In 2021, I received the <strong>Academic Excellence Award</strong> from the Government of Catalonia for ranking in the top 3% of the university entrance exams.
                 </div>
                 </p>
     """
     footer = """
             <div class="col-sm-12" style="">
-                <h4>Homepage Template</h4>
-                <p>
-                    Template adapted from: 
+                <p class="footer-note">
+                    Template adapted from:
                     <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">&#9883;</a> 
                     <a href="https://kashyap7x.github.io/" target="_blank">&#9883;</a>
                     <a href="https://kait0.github.io/" target="_blank">&#9883;</a>
@@ -73,17 +76,17 @@ def generate_person_html(persons, connection=", ", make_bold=True, make_bold_nam
     return s
 
 def get_paper_entry(entry_key, entry):
-    s = """<div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3">"""
+    s = """<div class="pub"> <div class="row"><div class="col-sm-3">"""
     s += f"""<img src="{entry.fields['img']}" class="img-fluid img-thumbnail" alt="Project image">"""
     s += """</div><div class="col-sm-9">"""
 
     if 'award' in entry.fields.keys():
-        s += f"""<a href="{entry.fields['html']}" target="_blank">{entry.fields['title']}</a> <span style="color: red;">({entry.fields['award']})</span><br>"""
+        s += f"""<a class="pub-title" href="{entry.fields['html']}" target="_blank">{entry.fields['title']}</a> <span style="color: red;">({entry.fields['award']})</span><br>"""
     else:
-        s += f"""<a href="{entry.fields['html']}" target="_blank">{entry.fields['title']}</a> <br>"""
+        s += f"""<a class="pub-title" href="{entry.fields['html']}" target="_blank">{entry.fields['title']}</a> <br>"""
 
-    s += f"""{generate_person_html(entry.persons['author'])} <br>"""
-    s += f"""<span style="font-style: italic;">{entry.fields['booktitle']}</span>, {entry.fields['year']} <br>"""
+    s += f"""<span class="authors">{generate_person_html(entry.persons['author'])}</span> <br>"""
+    s += f"""<span class="venue"><span style="font-style: italic;">{entry.fields['booktitle']}</span>, {entry.fields['year']}</span> <br>"""
 
     artefacts = {'html': 'Project Page', 'pdf': 'Paper', 'supp': 'Supplemental', 'video': 'Video', 'poster': 'Poster', 'code': 'Code'}
     i = 0
@@ -101,12 +104,12 @@ def get_paper_entry(entry_key, entry):
     for entr in ['title', 'booktitle', 'year']:
         cite += f"\t{entr} = " + "{" + f"{entry.fields[entr]}" + "}, \n"
     cite += """}</pre></code>"""
-    s += " /" + f"""<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{entry_key}" aria-expanded="false" aria-controls="collapseExample" style="margin-left: -6px; margin-top: -2px;">Expand bibtex</button><div class="collapse" id="collapse{entry_key}"><div class="card card-body">{cite}</div></div>"""
+    s += " / " + f"""<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{entry_key}" aria-expanded="false" aria-controls="collapseExample">Expand bibtex</button><div class="collapse" id="collapse{entry_key}"><div class="card card-body">{cite}</div></div>"""
     s += """ </div> </div> </div>"""
     return s
 
 def get_talk_entry(entry_key, entry):
-    s = """<div style="margin-bottom: 3em;"> <div class="row"><div class="col-sm-3">"""
+    s = """<div class="pub"> <div class="row"><div class="col-sm-3">"""
     s += f"""<img src="{entry.fields['img']}" class="img-fluid img-thumbnail" alt="Project image">"""
     s += """</div><div class="col-sm-9">"""
     s += f"""{entry.fields['title']}<br>"""
@@ -161,6 +164,36 @@ def get_index_html():
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {{ font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; color: #333; font-size: 15.5px; line-height: 1.7; }}
+    .container {{ max-width: 1000px; }}
+    .display-4 {{ font-weight: 300; letter-spacing: -0.02em; }}
+
+    /* Links: light blue with a soft gray underline */
+    a, .btn-link {{ color: #4a8fc7; text-decoration: none; border-bottom: 1px solid #ddd; transition: color 0.15s, border-color 0.15s; }}
+    a:hover, .btn-link:hover {{ color: #1f5f8b; text-decoration: none; border-bottom-color: #999; }}
+    .btn-link {{ padding: 0; font-size: inherit; line-height: inherit; vertical-align: baseline; border-radius: 0; border-top: 0; border-left: 0; border-right: 0; }}
+    .btn-link:focus {{ box-shadow: none; text-decoration: none; }}
+
+    .bio p {{ text-align: justify; }}
+    .links {{ margin-top: 1.5rem; font-size: 0.9rem; }}
+    .links a, .links .btn-link {{ border-bottom: none; margin: 0 0.3rem; white-space: nowrap; }}
+    .links i {{ margin-right: 0.25rem; }}
+
+    h4 {{ font-size: 1.3rem; font-weight: 600; padding-bottom: 0.5rem; margin-bottom: 1.5rem; border-bottom: 1px solid #eee; }}
+    .profile-img {{ width: 100%; max-width: 220px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08); }}
+
+    .pub {{ margin-bottom: 2.2em; }}
+    .pub-title {{ color: #222; font-weight: 600; border-bottom: none; }}
+    .pub .authors a {{ color: #666; border-bottom: none; }}
+    .pub .authors a:hover {{ color: #1f5f8b; }}
+    .pub .venue {{ color: #777; }}
+    .img-thumbnail {{ border-radius: 8px; border-color: #eee; padding: 0; }}
+
+    .footer-note, .footer-note a {{ color: #aaa; font-size: 0.8rem; border-bottom: none; }}
+  </style>
+
   <title>{name[0] + ' ' + name[1]}</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
@@ -175,11 +208,11 @@ def get_index_html():
                     <h3 class="display-4" style="text-align: center;"><span style="font-weight: bold;">{name[0]}</span> {name[1]}</h3>
                     </div>
                     <br>
-                    <div class="col-md-10" style="">
+                    <div class="col-md-9 bio" style="">
                         {bio_text}
                     </div>
-                    <div class="col-md-2" style="">
-                        <img src="assets/img/profile.jpg" class="img-thumbnail" width="280px" alt="Profile picture">
+                    <div class="col-md-3" style="text-align: center;">
+                        <img src="assets/img/profile.jpg" class="profile-img" alt="Profile picture">
                     </div>
                 </div>
                 <div class="row" style="margin-top: 1em;">
@@ -188,18 +221,20 @@ def get_index_html():
                         {pub}
                     </div>
                 </div>
+                <!-- Talks: uncomment when talk_list.bib has entries
                 <div class="row" style="margin-top: 3em;">
                     <div class="col-sm-12" style="">
                         <h4>Talks</h4>
                         {talks}
                     </div>
                 </div>
+                -->
                 <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
                     {footer}
                 </div>
             </div>
             <div class="col-md-1"></div>
-        </div?
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
